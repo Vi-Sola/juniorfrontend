@@ -1,0 +1,46 @@
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 10px
+}
+
+body {
+    background-image: url(img/2.png);
+    background-color: #FFFFFF;
+    
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:top;
+    font-size: 20px;
+}
+
+p {
+margin-left: 10px
+}
+
+h1 {
+    text-align: center;
+}
+
+select {
+    padding:10px;
+    border:2px;
+    border-radius: 10px;
+    color: white;
+    background-color: #081335;
+}
+
+input[type=number]:hover {
+    color: white;
+    background-color: #081335;
+}
+
+input[type=text]:focus {
+    color: white;
+    background-color: #081335;
+}
+
+input[type=date]:focus {
+    color: white;
+    background-color: #081335;
+}
