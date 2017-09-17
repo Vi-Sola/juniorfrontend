@@ -1,9 +1,3 @@
-table, th, td {
-    border: 5px solid black;
-    border-collapse: collapse;
-    padding: 10px
-}
-
 body {
     background-image: url(img/2.png);
     background-color: #FFFFFF;
@@ -12,6 +6,12 @@ body {
     background-attachment:fixed;
     background-position:top;
     font-size: 20px;
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 10px
 }
 
 p {
@@ -27,20 +27,46 @@ select {
     border:2px;
     border-radius: 10px;
     color: white;
-    background-color: #081335;
+    background-color: rgba(43, 68, 145, 0.56);
 }
 
 input[type=number]:hover {
     color: white;
-    background-color: #081335;
+    background-color: rgba(43, 68, 145, 0.56);
 }
 
 input[type=text]:focus {
     color: white;
-    background-color: #081335;
+    background-color: rgba(43, 68, 145, 0.56);
 }
 
 input[type=date]:focus {
     color: white;
-    background-color: #081335;
+    background-color: rgba(131, 18, 18, 0.56);
+}
+
+.red-colored {
+    color: rgb(255, 55, 55)
+}
+
+}
+
+.my-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+a:hover {
+color: green;
+background-color:black;
+}
+
+li:first-child {
+    color: greenyellow;
+}
+
+li:last-child {
+    color: greenyellow;
 }

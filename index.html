@@ -8,12 +8,12 @@
 </head>
 <body> 
     <h1>Вакансия Junior FrontEnd Developer </h1>
-    <div>
-    <div style="display: inline-block"> 
+    <div class="my-flex">
+    <div > 
             <p><img src="https://a.d-cd.net/d23d5a2s-960.jpg" width="150" title="фото"> 
     </div>
     
-    <div style="display: inline-block" >
+    <div >
             <p><b>ФИО:</b> Ефимова Анна Александровна</p>
             <p><b><a href="https://github.com/Vi-Sola/juniorfrontend"> Ссылка на репозиторий Github</a></b></p>
             <p><b>Опыт работы:</b>
@@ -25,21 +25,23 @@
     </div>  
     </div>
 <form>
-        <p> <b> Дата собеседования:</b> <input type="date"></p>
-        <p><b>Уровень английского:</b> 
-                <input  type="radio" name="english-level" value="bad"> Плохо
-                <input type="radio" name="english-level" value="middle"> Средне
-                <input type="radio" name="english-level" value="good"> Хорошо
-                <input type="radio" name="english-level" value="excellent"> Превосходно </p>
+        <p class="red-colored"> <b> Дата собеседования:</b> <input type="date"></p>
+        <p class="red-colored"><b>Уровень английского:</b> 
+                <input type="radio" name="english-level" value="bad" class="red-colored"> Плохо
+                <input type="radio" name="english-level" value="middle" class="red-colored"> Средне
+                <input type="radio" name="english-level" value="good" class="red-colored"> Хорошо
+                <input type="radio" name="english-level" value="excellent" class="red-colored"> Превосходно </p>
         <p><b>Ключевые навыки:</b><br>
-            <ul><li>Магистр подушки</li><br>
-                <li>Повелитель дивана</li><br>
-                <li>Кандидат сонных наук</li><br>
-                <li>-----</li><br></ul>  
-            </p>
+            <ul>
+                <li class="ul1">Магистр подушки</li><br>
+                <li class="ul1">Повелитель дивана</li><br>
+                <li class="ul1">Кандидат сонных наук</li><br>
+                <li class="ul1">-----</li><br>
+            </ul>  
+        </p>
             <p><input type="text" size="40" placeholder="введите навык..."> 
         <input type="button" value="Добавить в список"></p>
-        <p>Коммуникабельность:</p> 
+        <p id="red-colored">Коммуникабельность:</p> 
         <p><select>
             <option>----------</option>
             <option>Интроверт</option>
@@ -54,7 +56,7 @@
                <input type="checkbox" name="3"> Навыки
                <input type="checkbox" name="4"> Сразу видно, что свой человек
             </p>
-        <p><b>Образование. курсы и т. п.</b></p>
+        <p class=""><b>Образование. курсы и т. п.</b></p>
         <table>
             <tr><th>#</th>
                 <th>Сроки обучения</th>
